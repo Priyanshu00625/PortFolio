@@ -1,0 +1,47 @@
+
+.navbar{
+    display: flex;
+    background-color: #EDEBF1;
+    height: 100px;
+    width: 100%;
+    margin-right: 0;
+    
+}
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: large; 
+    margin-right: 0;
+}
+.left{
+    display: flex;
+    padding-left: 5rem;
+    width: 60%;
+    font-weight: bold;
+    align-items: center;
+    font-size: x-large;
+} 
+
+.contact-btn{
+    background-color:#27194C;
+    color: #EDEBF1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (width<1206px) {
+    .left{
+        font-size: medium;
+    }
+    .right{
+        font-weight: 600;
+        font-size: medium;
+    }
+}
+
+
+
